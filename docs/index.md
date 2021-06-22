@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 navbar: true
-heroText: 天涯有多远？很近，近在咫尺；咫尺有多近？很远，远在天涯。
+heroText: 天涯有多远？很近，近在咫尺；<br/>咫尺有多近？很远，远在天涯。
 # tagline: 天涯有多远？很近，近在咫尺；咫尺有多近？很远，远在天涯。
 # actionText: 立刻进入 →
 # actionLink: /web/
