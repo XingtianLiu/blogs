@@ -18,8 +18,7 @@
             :src="$withBase(homeData.heroImage)"
             :alt="homeData.heroAlt"
           />
-          <h1 v-if="homeData.heroText" id="main-title">
-            {{ homeData.heroText }}
+          <h1 v-if="homeData.heroText" id="main-title" v-html="homeData.heroText">
           </h1>
           <p v-if="homeData.tagline" class="description">
             {{ homeData.tagline }}
