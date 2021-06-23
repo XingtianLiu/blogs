@@ -16,7 +16,10 @@ function getNav(rootPath, relativeDir) {
           result.push({ text: str.replace(/^[0-9\.]+/, '').replace(/\.md$/i, ''), link: mathcArr[1] })
         }
       } else if(isDirectory){
-        result.push({ text: str.replace(/^[0-9\.]+/, ''), items: getNav(join(rootPath, str), join(relativeDir, str))})
+        let menu = { text: str.replace(/^[0-9\.]+/, ''), items: getNav(join(rootPath, str), join(relativeDir, str))}
+        if(menu.items.length >0){
+          result.push(menu)
+        }
       }
     }
   })
