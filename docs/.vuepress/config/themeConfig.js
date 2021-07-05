@@ -69,6 +69,11 @@ module.exports = {
         link: 'mailto:nullpointer666@163.com',
       },
       {
+        iconClass: 'icon-gitee',
+        title: 'Gitee',
+        link: 'https://gitee.com/liuxingtian',
+      },
+      {
         iconClass: 'icon-github',
         title: 'GitHub',
         link: 'https://github.com/XingtianLiu',
