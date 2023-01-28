@@ -88,7 +88,7 @@ module.exports = {
   footer: {
     createYear: 2021,
     copyrightInfo:
-      'Evan Liu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>',
+      'Evan Liu | <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2021006993号-1</a>',
   },
   htmlModules // 插入hmtl(广告)模块
 }
